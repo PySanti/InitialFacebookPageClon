@@ -1,0 +1,148 @@
+
+body{
+    --facebook-base-color : rgb(33, 100, 224);
+    --base-font-family : Times;
+    margin: 0;
+}
+
+.main-container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-flow: row wrap;
+    background-color: #eee;
+
+}
+
+
+.main-container__presentation-container > *{
+    margin: 0;
+}
+
+.main-container__presentation-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 580px;
+    height: 300px;
+}
+
+.main-container__presentation-container__paraph{
+    width: 80%;
+    font-size: 20px;
+}
+
+.main-container__presentation-container__title{
+    color: var(--facebook-base-color);
+    font-size: 70px;
+    font-family:  var(--base-font-family);
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+
+.main-container__input-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.main-container__input-container__input__form{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0;
+}
+
+.main-container__input-container__input{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 396px;
+    height: 396px;
+    box-shadow: 5px 5px 10px 10px #ddd;
+}
+
+.main-container__input-container__input__form__input-element{
+    padding : 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+
+.main-container__input-container__input__form__input-element::placeholder{
+    color: #666;
+    background-color: #fff;
+}
+
+button{
+    padding : 10px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.main-container__input-container__paraph{
+    width: 80%;
+    text-align: center;
+}
+
+
+.main-container__input-container__input__div-line{
+    background-color: #ddd;
+    height  : 1px;
+    width: 80%;
+    margin-top      : 20px;
+    margin-bottom   : 8px;
+}
+
+
+#input-button__is{
+    background-color: var(--facebook-base-color);
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--base-font-family);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    font-weight: bolder;
+    cursor:  pointer;
+}
+
+#input-button__ccn{
+    background-color: #0a0;
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--base-font-family);
+    width: 50%;
+    font-weight: bolder;
+    cursor:  pointer;
+}
+#input-button__oc{
+    color: #00a;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-container__input-container__input > [id]{
+    cursor:  pointer;
+}
+
